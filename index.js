@@ -309,6 +309,9 @@ function LeapCameraControls(camera) {
   };
 };
 
+LeapCameraControls.prototype = Object.create( THREE.EventDispatcher.prototype );
+LeapCameraControls.prototype.constructor = LeapCameraControls;
+
 
 function LeapObjectControls(camera, object) {
   var _this = this;
@@ -609,5 +612,11 @@ function LeapObjectControls(camera, object) {
   };
 };
 
-module.exports.LeapCameraControls = LeapCameraControls;
-module.exports.LeapObjectControls = LeapObjectControls;
+LeapObjectControls.prototype = Object.create( THREE.EventDispatcher.prototype );
+LeapObjectControls.prototype.constructor = LeapObjectControls;
+
+
+module.exports = {
+    LeapCameraControls,
+    LeapObjectControls
+}
