@@ -1,0 +1,27 @@
+{
+  "name": "threeleapcontrols",
+  "version": "1.0.0",
+  "description": "Camera and objects controls which you can use with your Leap Motion controller to rotate, zoom / scale and pan any camera or object in your 3D scene.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivee-tech/threeleapcontrols.git"
+  },
+  "keywords": [
+    "Leap Motion",
+    "3D",
+    "Camera",
+    "THREE",
+    "JS",
+    "Controls"
+  ],
+  "author": "ivee-tech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivee-tech/threeleapcontrols/issues"
+  },
+  "homepage": "https://github.com/ivee-tech/threeleapcontrols#readme"
+}
